@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="..//styles/inicio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+</head>
+<body>
+
+    
+    <header>
+        <img src="../assets/header texcoco.png" class="img-fluid" style="width: 20%; height: 15%; object-fit: contain;">
+    </header>
+       
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="visita.html">Visita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="informes.html">Informes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+       
+
+    <!-- Nombre del lugar (título e imagen). -->
+    <div class="container mt-4">
+        <h1 class="text-center">Texcoco, Estado de México</h1>
+        <img src="../assets/aniv texcoco-transformed.jpeg" class="img-fluid" style="width: 100%; height: 15%; object-fit: contain;">
+
+        <!-- Historia del lugar (titulo, párrafo e imagen del lugar en un mapa.) -->
+    <section>
+         <h2>Historia del lugar</h2>
+        <p>    
+            El municipio de Texcoco, ubicado en el Estado de México, tiene una historia rica y multifacética que abarca desde tiempos prehispánicos hasta la era moderna, reflejando su importancia cultural, política y económica en la región.
+        </p>   
+        <h3>Época Prehispánica</h3>
+        <p>
+            Texcoco fue una de las ciudades más importantes del México antiguo y capital del reino de Acolhuacán, hogar del pueblo Acolhua. En el siglo XV, Texcoco alcanzó su apogeo bajo el reinado de Nezahualcóyotl, uno de los monarcas más reconocidos de la historia prehispánica de México. Nezahualcóyotl, un filósofo, poeta y legislador, convirtió a Texcoco en un importante centro cultural y artístico, conocido como la "Atenas del Anáhuac". Su corte fue famosa por ser un lugar de reunión para sabios, poetas y arquitectos. Durante su gobierno, Texcoco formó parte de la Triple Alianza con Tenochtitlán (hoy Ciudad de México) y Tlacopan, lo que consolidó su poder político y militar en la región.
+        </p>
+         <h3>Época Colonial</h3>
+        <p>
+            Con la llegada de los españoles en el siglo XVI, Texcoco fue uno de los primeros lugares en ser conquistados por Hernán Cortés. Durante este período, Texcoco se convirtió en un importante centro de evangelización y administración colonial. Se establecieron iglesias y conventos, como el Convento de San Francisco, que aún se conserva como un testimonio de la arquitectura y la influencia española en la región. La ciudad también fue un importante punto de encuentro entre las culturas indígena y española, lo que se refleja en la mezcla de tradiciones y costumbres que aún perduran.
+        </p>
+        <h3>Independencia y Reforma</h3>
+        <p>
+            Durante el siglo XIX, Texcoco fue testigo de los movimientos de independencia y reforma en México. La región participó activamente en las luchas por la independencia y más tarde en los conflictos de la Reforma, que buscaban la secularización de la sociedad y la separación de la Iglesia y el Estado.
+        </p>
+     </section>
+        <section>
+            <h2>Mapa de Texcoco</h2>
+            <img src="../assets/mapa texcoco.jpg" class="img-fluid" alt="Imagen representativa del lugar">
+        </section>
+
+        <!-- Lugar en la actualidad (titulo, párrafo e imagen del lugar ctualmente) -->
+        <section>
+            <h3>Siglo XX y XXI</h3>
+            En el siglo XX, Texcoco experimentó un crecimiento en términos de infraestructura y población. La cercanía con la Ciudad de México ha influido en su desarrollo económico y urbano, aunque todavía conserva su identidad cultural y tradicional. Texcoco ha mantenido sus raíces agrarias, siendo conocido por su producción agrícola y su tradicional Feria Internacional del Caballo, que celebra la importancia de la equitación y la cultura local.
+            En las últimas décadas, Texcoco ha sido escenario de importantes debates sobre desarrollo urbano, como el proyecto (ahora cancelado) del Nuevo Aeropuerto Internacional de la Ciudad de México, que buscaba ser construido en parte del territorio municipal.
+        </section>
+        
+                <!-- Controlador carrusel -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/centro cultural mexiquense.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Sala de Conciertos “Elisa Carrillo”</h5>
+                  <p>La Sala de Conciertos tiene un aforo de mil 200 espectadores y comparte servicios de infraestructura —tales como camerinos, servicios, bodegas y talleres de escenografía— con el Auditorio “Miguel León-Portilla” de usos múltiples y el Teatro al Aire Libre</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/parque ecologico lago tex.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Nuevas instalaciones deportivas, culturales y de esparcimiento</h5>
+                  <p>En el contexto del cambio climático global, la restauración ecológica de un territorio de más de 14 mil hectáreas entre el tejido urbano de la zona metropolitana de la cuenca que alberga a la Ciudad de México, el Estado de México y sus alrededores agrícolas, representa una pieza clave de rescate del funcionamiento ambiental de la cuenca hidrográfica.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/molino-de-flores1.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Vista de la Calzada Principal hacia la Capilla de San Joaquín y la Casa Principal</h5>
+                  <p>Para el año de 1592 la hacienda llegó a tener mil 795 hectáreas dedicadas principalmente al cultivo de trigo. Y con respecto a la infraestructura de la hacienda, para esas fechas ésta ya contaba con una represa construida en el lecho del río, el batán y otras edificaciones menores.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+        <!--Lista con datos curiosos/importantes (título y lista ordenada/desordenada).-->
+        <section>
+            <h2>¿Sabías qué...? Aqui tienes algunos datos curiosos.</h2>
+            <ul>
+                <li><h4>Dato curioso sobre Centro Cultural Mexiquense Bicentenario.</h4></li>
+               
+                <p>
+                    Centro Cultural multifuncional. Construido en un terreno de 17 hectáreas. Cuenta con un teatro-sala de conciertos, auditorio, teatro al aire libre, biblioteca, espacios museísticos, cuatro edificios para talleres multidisciplinarios y áreas de servicios para grandes actividades como festivales artísticos.
+                </p>
+                <p>
+                    Se ofrecen conciertos, presentaciones artísticas en general, festivales artístico-culturales, talleres artísticos y multimedia, biblioteca, exposiciones de diversas temáticas.
+                </p>
+                <li><h4>Dato curioso sobre Parque Ecológico Lago de Texcoco</h4></li>
+                <p>
+                    La zona contiene ecosistemas representativos que son el hábitat de más de 250 especies de flora y más de 370 de fauna, 10 especies de hongos y musgos de las cuales 48 están bajo alguna categoría de protección.
+                    <br>
+                    Es hábitat del 60 por ciento de la diversidad de aves del Estado de México y funciona como refugio para un gran número de especies de aves migratorias, la mayoría de invierno (34.78%); seguido de residentes (16.30%) y transitorias (12.68%).
+                </p>
+                <li><h4>Dato curioso sobre Parque Nacional Molino de Flores.</h4></li>
+                <p>
+                    El Parque Nacional Molino de Flores, de hecho, fue escenario de grandes hechos históricos que abarcan desde los tiempos de Nezahualcóyotl, la conquista de los españoles, la Revolución Mexicana y hoy es un espacio para la convivencia familiar.
+                    El nombre del Parque Nacional Molino de Flores Nezahualcóyotl hace honor al sabio rey Nezahualcóyotl, quien gobernó estos territorios en el siglo XV y era amante de la naturaleza.
+                </p>
+            </ul>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

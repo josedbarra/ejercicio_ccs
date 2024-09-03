@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+}
+section {
+    margin: 20px 0;
+}
+.descripcion-pagina {
+    background-color: #e2e2e2;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.contenedor div {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    width: 32%;
+}
+h2 {
+    margin-top: 0;
+}
+button:hover{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+}
